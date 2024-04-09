@@ -23,7 +23,10 @@ export const authOptions = {
       return session
     }
   },
-  secret: process.env.AUTH_SECRET,
+  jwt: {
+    secret: process.env.AUTH_SECRET,
+  },
+secret: process.env.SECRET,
   
   
 }
