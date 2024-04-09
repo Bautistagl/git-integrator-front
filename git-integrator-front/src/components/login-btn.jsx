@@ -14,7 +14,7 @@ const  Component = () => {
   return (
     <>
       Not signed in <br />
-      <button onClick={() => signIn({ callbackUrl: "https://git-integrator-front.vercel.app/" })}>Sign in</button>
+      <button onClick={() => signIn()}>Sign in</button>
     </>
   )
 }
