@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useSession } from 'next-auth/react';
 import back from '../../axios';
 
-function CheckOwnerButton() {
+const  CheckOwnerButton = () => {
  
   const [searchResult, setSearchResult] = useState(null);
   const [repositories, setRepositories] = useState([]);
