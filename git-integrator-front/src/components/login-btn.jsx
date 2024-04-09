@@ -7,6 +7,7 @@ const  Component = () => {
     return (
       <>
         Signed in as {session.user.email} <br />
+        {console.log(session)}
         <button onClick={() => signOut()}>Sign out</button>
       </>
     )
@@ -14,6 +15,7 @@ const  Component = () => {
   return (
     <>
       Not signed in <br />
+      {console.log(session)}
       <button onClick={() => signIn()}>Sign in</button>
     </>
   )
