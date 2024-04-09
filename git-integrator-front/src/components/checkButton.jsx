@@ -11,7 +11,7 @@ const  CheckOwnerButton = () => {
 
   const handleSearch = () => {
     // Realizar la solicitud GET a tu endpoint
-    axios.get('/api/github/check', {
+    back.get('/api/github/check', {
       params: {
         owner: session.user.name
       }
