@@ -13,7 +13,7 @@ const  CheckOwnerButton = () => {
     // Realizar la solicitud GET a tu endpoint
     back.get('/api/github/check', {
       params: {
-        owner: session.user.name
+        owner: 'UsuarioGrid'
       }
     })
     .then(response => {
